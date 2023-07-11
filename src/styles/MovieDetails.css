@@ -1,0 +1,36 @@
+.details-container{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  max-width: 90%;
+  margin: 5px;
+}
+
+.movieDetails{
+  font-size: 14px;
+  margin: 15px;
+  max-width: 50%;
+}
+
+.movieImg{
+  border-radius: 15px;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.title{
+  margin-top: 10px;
+  font-size: 32px;
+}
+
+@media (max-width: 560px){
+  .details-container{
+    flex-wrap: wrap;
+  }
+  .movieDetails{
+    font-size: 16px;
+    max-width: 300px;
+  }
+}
